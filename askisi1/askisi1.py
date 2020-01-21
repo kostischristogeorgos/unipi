@@ -1,3 +1,4 @@
+#PUT THE text.txt file in the same folder as askisi1.py
 with open('text.txt', 'r') as file:
     L = file.read().split() #puts all the words from the file in the list
 L = (sorted(L, key = len, reverse = True)) #sorts the list based on the lenght of the words
