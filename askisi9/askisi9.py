@@ -1,3 +1,4 @@
+#9th exercise for the first semester class introduction to programming in UniPi
 x = int(input("Give me a number"))
 number = 3*x + 1
 numlist = [int(x) for x in str(number)] #Puts every digit of the number in the list
