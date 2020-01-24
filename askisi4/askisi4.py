@@ -1,4 +1,5 @@
 #4th exercise for the first semester class introduction to programming in UniPi
+#Python is 3.7
 
 def calculation(x):
     L=[]
