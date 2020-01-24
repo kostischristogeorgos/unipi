@@ -1,4 +1,5 @@
 #PUT THE text.txt file in the same folder as askisi1.py
+#Python is 3.7
 #1st exercise for the first semester class introduction to programming in UniPi
 with open('text.txt', 'r') as file:
     L = file.read().split() #puts all the words from the file in the list
