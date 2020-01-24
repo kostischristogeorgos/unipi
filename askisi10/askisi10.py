@@ -404,7 +404,7 @@ for i in range(1):
         print("\nPlayer:", user, "wins because he has two kinds  of:", card, "s")
         break
     else:
-        card, user = Highesthand(player1, pc)
+        logic, card, user = Highesthand(player1, pc)
         if logic:
             if card == 14:
                 card = "A"
