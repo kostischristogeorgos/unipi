@@ -62,13 +62,13 @@ def Highesthand(player,computer):
     for i in range(5):
         if player[i][0] > computer[i][0]:
             max = player[i][0]
-            Logic = True
-            break
+            logic = True
+            return logic, max, user
         elif player[i][0] < computer[i][0]:
             max = computer[i][0]
             logic = True
             user = "PC"
-            break
+            return logic, max, user
         else:
             continue
     else:
@@ -414,6 +414,6 @@ for i in range(1):
                 card = "Q"
             elif card == 11:
                 card = "J"
-            print("\nPlayer:", user, "wins because he has the highest card:", card)
+            print("\nPlayer:", user, "wins because he has the highest card/highest card in a tie:", card)
         else:
             print("No winner")
