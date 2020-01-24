@@ -1,4 +1,5 @@
 #This is the 10th exercise for the first semester class introduction to programming in UniPi
+#Python is 3.7
 #This program simulates a poker game between two players, in this instance a player and the computer
 #First it gives the players 5 cards and it computes which player wins based on the rules and prints out the data
 #This program covers the rules from HighestHand to Flush because only 6 rules where asked to be done
