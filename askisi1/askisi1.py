@@ -23,4 +23,4 @@ for i in range(5):
     L[i] = (L[i].replace('I', ''))
     L[i] = (L[i].replace('O', ''))
     L[i] = (L[i].replace('U', '')) 
-    print (L[i])
+    print(L[i])
