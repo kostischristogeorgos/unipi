@@ -11,11 +11,16 @@ for i in range(5):
 print("\n")
 print("5 biggest words in the file without vowel letters")
 print("\n")
+#Removes upper and lower vowel letters
 for i in range(5):
     L[i] = (L[i].replace('a', ''))
     L[i] = (L[i].replace('e', ''))
     L[i] = (L[i].replace('i', ''))
     L[i] = (L[i].replace('o', ''))
     L[i] = (L[i].replace('u', ''))
-    L[i] = (L[i].replace('y', ''))
+    L[i] = (L[i].replace('A', ''))
+    L[i] = (L[i].replace('E', ''))
+    L[i] = (L[i].replace('I', ''))
+    L[i] = (L[i].replace('O', ''))
+    L[i] = (L[i].replace('U', '')) 
     print (L[i])
