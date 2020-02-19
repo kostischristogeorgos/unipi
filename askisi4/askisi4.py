@@ -7,6 +7,7 @@ def calculation(x):
     # puts every character's ascii hex in a list
     for i in x:
         L.append(ord(i))
+    print("Every character of", x,"'s ascii value in a list")
     print(L)
 
     # creates the number by putting all the numbers from the list in line
